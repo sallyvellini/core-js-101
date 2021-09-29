@@ -35,11 +35,9 @@ function concatenateStrings(value1, value2) {
  *   ''      => 0
  */
 function getStringLength(value) {
-  let count = 0;
-  for (let i = 0; i < value.length; i += 1) {
-    count += 1;
-  }
-  return count;
+  let lng = 0;
+  lng = value.length;
+  return lng;
 }
 
 /**
